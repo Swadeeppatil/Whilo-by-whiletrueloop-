@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whilo - AI File Compression</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "pica": "https://aistudiocdn.com/pica@^9.0.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <main id="app-container">
+        <header class="app-header">
+            <svg class="logo" width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="url(#paint0_linear_101_2)"/>
+                <path d="M12 6C8.69 6 6 8.69 6 12H8C8 9.79 9.79 8 12 8V6Z" fill="url(#paint1_linear_101_2)"/>
+                <defs>
+                    <linearGradient id="paint0_linear_101_2" x1="2" y1="12" x2="22" y2="12" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#8E2DE2"/>
+                        <stop offset="1" stop-color="#4A00E0"/>
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_101_2" x1="6" y1="9" x2="12" y2="9" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#8E2DE2"/>
+                        <stop offset="1" stop-color="#4A00E0"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+            <div class="title-group">
+                <h1>Whilo</h1>
+                <span class="tagline">by whiletrueloop</span>
+            </div>
+            <p>Intelligent File Compression, Powered by AI</p>
+        </header>
+        <div id="root"></div>
+    </main>
+    <script type="module" src="index.tsx"></script>
+  </body>
+</html>
